@@ -1,0 +1,16 @@
+[
+ {"id":"1","list":"EU","regime":"RUS","act":"Reg. (EU) 269/2014","listed":"2026-04-23","type":"Person",
+  "names":["IVANOV, Sergey Petrovich","Иванов Сергей Петрович","Sergei Ivanov"],"dob":["1970-01-01"],"countries":["RU"],"url":"https://example.org/eu/1"},
+ {"id":"2","list":"EU","regime":"RUS","act":"Reg. (EU) 269/2014","listed":"2022-03-01","type":"Unternehmen",
+  "names":["Rosoboronexport OAO","Rosoboroneksport"],"countries":["RU"],"url":"https://example.org/eu/2"},
+ {"id":"3","list":"UN","regime":"Al-Qaida","act":"QDi.001","listed":"2010-05-05","type":"Person",
+  "names":["Mohammed Al-Rashid","Muhammad al Rashid"],"dob":["1965"],"countries":["IQ"]},
+ {"id":"4","list":"UK","regime":"Russia","act":"UK Sanctions List","listed":"2024-01-01","type":"Unternehmen",
+  "names":["Müller Spezialmaschinen GmbH"],"countries":["DE"]},
+ {"id":"5","list":"US","regime":"Entity List (EL) - Bureau of Industry and Security","act":"","listed":"2025-06-10","type":"Unternehmen",
+  "names":["Huawei Technologies Co., Ltd.","Huawei Technologies"],"countries":["CN"]},
+ {"id":"6","list":"TW","regime":"SHTC Entity List","act":"Foreign Trade Act Art. 13","type":"Unternehmen",
+  "names":["Semiconductor Manufacturing International Corporation","SMIC"],"countries":["CN"]},
+ {"id":"7","list":"EU","regime":"BLR","act":"Reg. (EC) 765/2006","type":"Person","names":["Alexander Lukashenko","Aliaksandr Lukashenka"],"dob":["1954-08-30"],"countries":["BY"]},
+ {"id":"8","list":"EU","regime":"RUS","act":"Reg. (EU) 269/2014","type":"Person","names":["Thomas Mueller"],"dob":["1980"],"countries":["DE"]}
+]
