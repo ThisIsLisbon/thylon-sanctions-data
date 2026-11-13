@@ -1,0 +1,26 @@
+name: sanctions-data
+on:
+  schedule:
+    - cron: "17 */3 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r pipeline/requirements.txt
+      - name: Build sanctions data
+        env:
+          TW_SHTC_CSV_URL: ${{ secrets.TW_SHTC_CSV_URL }}
+        run: python pipeline/build_sanctions_data.py --out data/sanctions
+      - name: Commit if changed
+        run: |
+          git config user.name "thylon-bot"
+          git config user.email "bot@thylon.com"
+          git add data/sanctions
+          git diff --cached --quiet || git commit -m "sanctions data $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
