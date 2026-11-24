@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T13:55:52Z",
+ "generated": "2026-11-24T23:56:57Z",
  "recordCount": 40105,
  "recShards": 32,
  "idxKeys": [
@@ -45,7 +45,7 @@
    "id": "EU",
    "name": "EU Consolidated Financial Sanctions List (FSF)",
    "url": "https://webgate.ec.europa.eu/fsd/fsf",
-   "fetched": "2026-11-24T13:55:42Z",
+   "fetched": "2026-11-24T23:56:44Z",
    "sha256": "3eea03e34a447659",
    "records": 6303
   },
@@ -53,7 +53,7 @@
    "id": "UN",
    "name": "UN Security Council Consolidated List",
    "url": "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list",
-   "fetched": "2026-11-24T13:55:42Z",
+   "fetched": "2026-11-24T23:56:45Z",
    "sha256": "cb634fa0ebae0c15",
    "records": 1007
   },
@@ -61,7 +61,7 @@
    "id": "UK",
    "name": "UK Sanctions List (FCDO) - Open Government Licence v3.0",
    "url": "https://www.gov.uk/government/publications/the-uk-sanctions-list",
-   "fetched": "2026-11-24T13:55:44Z",
+   "fetched": "2026-11-24T23:56:47Z",
    "sha256": "d7e37754dd73f737",
    "records": 6457
   },
@@ -69,8 +69,8 @@
    "id": "US",
    "name": "US Consolidated Screening List (trade.gov)",
    "url": "https://www.trade.gov/consolidated-screening-list",
-   "fetched": "2026-11-24T13:55:51Z",
-   "sha256": "d39e7c8aa3489aa4",
+   "fetched": "2026-11-24T23:56:56Z",
+   "sha256": "833b8a34e88e260f",
    "records": 26338
   }
  ],
